@@ -4,10 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        table {
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  margin: 3rem;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+caption {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+thead {
+  background-color: #555;
+  color: #fff;
+}
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+td[colspan] {
+  background-color: #eee;
+}
+
+.social-links .link {
+  color: teal;
+}
+
+/* Два и более селекторов разделяются запятой */
+.social-links .link:hover,
+.social-links .link:focus {
+  background-color: orange;
+}
+.kiss {
+    color: teal;
+}
+
+.kiss:hover,
+.kiss:focus {
+    background-color: orange;
+}
+
+.social-links .link:active {
+  color: red;}
+
+  .schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+      </style>
 </head>
 <body>
-    <table>
+    <table class="schedule">
         <caption>Table stum</caption>
 <!-- Названия -->
         <thead>
@@ -22,7 +85,7 @@
             </tr>
         </thead>
 
-        <tbody>
+        <tbody class="schedule-body">
 <!-- Волгоградская область -->
             <tr>
                 <th>Волгоградская область</th>
@@ -74,5 +137,14 @@
             </tr>
         </tfoot>
     </table>
+
+    <a class="kiss" href="https://htmlreference.io">по ссылке</a>.
+
+    <ul class="social-links">
+        <li><a class="link" href="https://twitter.com">Twitter</a></li>
+        <li><a class="link" href="https://www.instagram.com">Instagram</a></li>
+        <li><a class="link" href="https://www.facebook.com">Facebook</a></li>
+    </ul>
+
 </body>
 </html>
