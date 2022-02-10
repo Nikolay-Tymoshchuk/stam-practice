@@ -1,4 +1,4 @@
-table {
+/* table {
   box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
   margin: 3rem;
   font-family: sans-serif;
@@ -23,3 +23,94 @@ th {
 td[colspan] {
   background-color: #eee;
 }
+
+.social-links .link {
+  color: teal;
+} */
+
+/* Два и более селекторов разделяются запятой */
+/* .social-links .link:hover,
+.social-links .link:focus {
+  background-color: orange;
+}
+.kiss {
+  color: teal;
+}
+
+.kiss:hover,
+.kiss:focus {
+  background-color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+} */
+
+/* Оформление таблицы */
+/* .schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
+}
+
+pre::selection {
+  color: #ffffff;
+  background-color: #e22c81;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  overflow: scroll;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  background-color: #339933;
+  min-height: 12rem;
+  line-height: calc(12rem - 8rem);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  color: #fff;
+  font-size: 1.2rem;
+  animation: pulse 6s infinite alternate;
+}
+.element {
+  width: 240px;
+  margin: auto;
+  background-color: #48c5b5;
+}
+.max {
+  width: auto;
+  max-width: 240px;
+}
+@keyframes pulse {
+  from {
+    width: 180px;
+  }
+  50% {
+    width: 240px;
+  }
+  to {
+    width: 90%;
+  }
+} */
