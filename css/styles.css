@@ -1,116 +1,82 @@
-/* table {
-  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-  margin: 3rem;
-  font-family: sans-serif;
-  border-collapse: collapse;
-}
-caption {
-  font-size: 20px;
-  margin-bottom: 1rem;
-}
-thead {
-  background-color: #555;
-  color: #fff;
+#root {
+    display: flex;
+    /* flex-direction: row; */
 }
 
-td,
-th {
-  padding: 0.5rem 1rem;
-  border: 1px solid #888;
-  text-align: center;
+.leftDiv {
+    background-color: aqua;
+    width: 40%;
+    padding: 24px;
 }
 
-td[colspan] {
-  background-color: #eee;
+.rightDiv {
+    background-color: blueviolet;
+    width: 60%;
 }
 
-.social-links .link {
-  color: teal;
-} */
-
-/* Два и более селекторов разделяются запятой */
-/* .social-links .link:hover,
-.social-links .link:focus {
-  background-color: orange;
-}
-.kiss {
-  color: teal;
+.title {
+    font-size: 40px;
+    color: darkblue;
 }
 
-.kiss:hover,
-.kiss:focus {
-  background-color: orange;
+.btn {
+    background-color: gold;
+    border-radius: 5px;
+    padding: 12px;
+    border: 2px solid green;
+    margin: 10px;
 }
 
-.social-links .link:active {
-  color: red;
+.btn-add {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 12px;
 }
 
-.schedule-body > tr:hover {
-  background-color: tomato;
-  color: white;
-} */
-
-/* Оформление таблицы */
-/* .schedule {
-  border-collapse: collapse;
+.list {
+    list-style: none;
+    padding: 16px;
 }
 
-.schedule th,
-.schedule td {
-  padding: 8px;
-  border: 1px solid #212121;
+.list_item {
+    display: flex;
 }
 
-pre {
-  font-family: "Arial", "Helvetica", sans-serif;
-  color: #2a2a2a;
-  font-size: 16px;
+.btndel {
+    margin-right: 10px;
 }
 
-pre::first-letter {
-  font-family: "Tahoma", serif;
-  font-size: 32px;
-  color: #f44336;
+.btnedit {
+    margin-left: auto;
 }
 
-pre::selection {
-  color: #ffffff;
-  background-color: #e22c81;
+.booktitle {
+    cursor: pointer;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
-  padding: 1rem;
-  overflow: scroll;
-  text-align: center;
-  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-  background-color: #339933;
-  min-height: 12rem;
-  line-height: calc(12rem - 8rem);
-  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-  color: #fff;
-  font-size: 1.2rem;
-  animation: pulse 6s infinite alternate;
+.rightDiv {
+    padding-right: 30px;
 }
-.element {
-  width: 240px;
-  margin: auto;
-  background-color: #48c5b5;
+
+.heading {
+    margin-left: 30px;
+    color: peachpuff;
+    font-size: 40px;
 }
-.max {
-  width: auto;
-  max-width: 240px;
+
+.text {
+    font-size: 25px;
+    padding-left: 30px;
+    color: silver;
 }
-@keyframes pulse {
-  from {
-    width: 180px;
-  }
-  50% {
-    width: 240px;
-  }
-  to {
-    width: 90%;
-  }
-} */
+
+.img {
+    padding-left: 30px;
+}
+
+.book-form {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    max-width: 500px;
+}
